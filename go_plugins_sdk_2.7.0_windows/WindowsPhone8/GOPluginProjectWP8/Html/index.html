@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/phone.css" />
+    <script type="text/javascript" src="js/go.js"></script>
+    <title>Plugin runner</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function getContacts() {
+            go.executePlugin("PluginExample.ContactsPlugin", "getContacts", "", "function(response){ alert(JSON.stringify(response))}");
+        }
+
+        function Vibrate() {
+            go.executePlugin("PluginExample.VibratePlugin", "VibrateAction", "", "");
+        }
+        function Mp3PlayerAction() {
+            go.executePlugin("PluginExample.MusicPlayerPlugin", "Mp3PlayerAction");
+        }
+        function getGalleryFiles() {
+            go.executePlugin("PluginExample.GalleryFilesPlugin", "GalleryFilesAction", "", "function(response){ alert(JSON.stringify(response))}");
+        }
+
+        function showAdTopLeft()
+        {
+
+            var adValue={};
+            adValue.adUnitId = "ca-app-pub-7391888475196049/6950884617";
+            adValue.adSize="BANNER";
+            adValue.adPosition="top_left";
+
+            adValue.margins={};
+            adValue.margins.left=200;
+            adValue.margins.top=80;
+            adValue.margins.right=900;
+            adValue.margins.bottom=8;
+
+            adValue.callback = "alert%28JSON.stringify%28%23%23%29%29;";
+            var stringifiedJSON = JSON.stringify({ args: adValue });
+            go.executePlugin("PluginExample.AdMobPlugin", "ShowAds", stringifiedJSON, "function(response){ alert(JSON.stringify(response))}");
+
+        }
+        function showAdTopCenter()
+        {
+
+            var adValue={};
+            adValue.adUnitId = "ca-app-pub-7391888475196049/6950884617";
+            adValue.adSize="BANNER";
+            adValue.adPosition="top_center";
+
+            adValue.margins={};
+            //adValue.margins.left=10;
+            //adValue.margins.top=10;
+             adValue.margins.right=0;
+            adValue.margins.bottom=10;
+
+            adValue.callback = "alert%28JSON.stringify%28%23%23%29%29;";
+            var stringifiedJSON = JSON.stringify({ args: adValue });
+            go.executePlugin("PluginExample.AdMobPlugin", "ShowAds", stringifiedJSON, "function(response){ alert(JSON.stringify(response))}");
+        }
+        function showAdTopRight()
+        {
+
+            var adValue={};
+            adValue.adUnitId = "ca-app-pub-7391888475196049/6950884617";
+            adValue.adSize="BANNER";
+            adValue.adPosition="top_right"; 
+
+            adValue.margins={};
+            adValue.margins.left=0;
+            adValue.margins.top=10;
+            adValue.margins.right=0;
+            adValue.margins.bottom=10;
+
+            adValue.callback = "alert%28JSON.stringify%28%23%23%29%29;";
+            var stringifiedJSON = JSON.stringify({ args: adValue });
+
+            go.executePlugin("PluginExample.AdMobPlugin", "ShowAds", stringifiedJSON, "function(response){ alert(JSON.stringify(response))}");
+        }
+
+        function showAdBottomLeft()
+        {
+
+            var adValue={};
+            adValue.adUnitId = "ca-app-pub-7391888475196049/6950884617";
+            adValue.adSize="BANNER";
+            adValue.adPosition="bottom_left";
+
+            adValue.margins={};
+            adValue.margins.left=0;
+            adValue.margins.top=10;
+            adValue.margins.right=0;
+            adValue.margins.bottom=10;
+
+            adValue.callback = "alert%28JSON.stringify%28%23%23%29%29;";
+            var stringifiedJSON = JSON.stringify({ args: adValue });
+            go.executePlugin("PluginExample.AdMobPlugin", "ShowAds", stringifiedJSON, "function(response){ alert(JSON.stringify(response))}");
+        }
+        function showAdBottomCenter()
+        {
+
+            var adValue={};
+            adValue.adUnitId = "ca-app-pub-7391888475196049/6950884617";
+            adValue.adSize="BANNER";
+            adValue.adPosition="bottom_center";
+
+            adValue.margins={};
+            adValue.margins.left=10;
+            adValue.margins.top=10;
+            adValue.margins.right=10; 
+            adValue.margins.bottom=10;
+
+            adValue.callback = "alert%28JSON.stringify%28%23%23%29%29;";
+            var stringifiedJSON = JSON.stringify({ args: adValue });
+
+            go.executePlugin("PluginExample.AdMobPlugin", "ShowAds", stringifiedJSON, "function(response){ alert(JSON.stringify(response))}");
+        }
+        function showAdBottomRight()
+        {
+
+            var adValue={};
+            adValue.adUnitId = "ca-app-pub-7391888475196049/6950884617";
+            adValue.adSize="BANNER";
+            adValue.adPosition="bottom_right";
+
+            adValue.margins={};
+            adValue.margins.left=0;
+            adValue.margins.top=0;
+            adValue.margins.right=10;
+            adValue.margins.bottom=10;
+
+            adValue.targeting={};
+            adValue.targeting.location={};
+            adValue.targeting.location.x=34;
+            adValue.targeting.location.y=34;
+            adValue.targeting.gender="female"
+            adValue.targeting.birthday =14012014;
+
+            adValue.callback = "alert%28JSON.stringify%28%23%23%29%29;";
+            var stringifiedJSON = JSON.stringify({ args: adValue });
+
+            go.executePlugin("PluginExample.AdMobPlugin", "ShowAds", stringifiedJSON, "function(response){ alert(JSON.stringify(response))}");
+        }
+
+        function showAdSmartBannertop()
+        {
+
+            var adValue={};
+            adValue.adUnitId = "ca-app-pub-7391888475196049/6950884617";
+            adValue.adSize="SMART_BANNER";
+            adValue.adPosition="TOP";
+            adValue.callback = "alert%28JSON.stringify%28%23%23%29%29;"; 
+            var stringifiedJSON = JSON.stringify({ args: adValue });
+
+            go.executePlugin("PluginExample.AdMobPlugin", "ShowAds", stringifiedJSON, "function(response){ alert(JSON.stringify(response))}");
+        }
+        function showAdSmartBannerBottom()
+        {
+            var adValue={};
+            adValue.adUnitId = "ca-app-pub-7391888475196049/6559958210";
+            adValue.adSize="SMART_BANNER";
+            adValue.adPosition="BOTTOM";
+            adValue.callback = "alert%28JSON.stringify%28%23%23%29%29;";
+            var stringifiedJSON = JSON.stringify({ args: adValue });
+
+            go.executePlugin("PluginExample.AdMobPlugin", "ShowAds", stringifiedJSON, "function(response){ alert(JSON.stringify(response))}");
+        }
+
+        function showAdInterstitial()
+        {
+            var adValue={};
+            adValue.adUnitId = "ca-app-pub-7391888475196049/3606491817";
+            adValue.adSize="INTERSTITIAL";
+            adValue.targeting={};
+            adValue.targeting.location={};
+            adValue.targeting.location.x=34;
+            adValue.targeting.location.y = 34;
+            adValue.targeting.accuracy = 1;
+            adValue.targeting.gender="female"
+            adValue.targeting.birthday =14401554;
+            adValue.targeting.isChild="YES";
+            adValue.callback = "alert%28JSON.stringify%28%23%23%29%29;";
+            var stringifiedJSON = JSON.stringify({ args: adValue });
+
+            go.executePlugin("PluginExample.AdMobPlugin", "ShowAds", stringifiedJSON, "function(response){ alert(JSON.stringify(response))}");
+
+        }
+
+        function closeAd()
+        { 
+            var adValue={};
+            adValue.adId="1";
+            adValue.callback = "alert%28JSON.stringify%28%23%23%29%29;";
+            var stringifiedJSON = JSON.stringify({ args: adValue });
+            go.executePlugin("PluginExample.AdMobPlugin", "CloseAds", stringifiedJSON, "function(response){ alert(JSON.stringify(response))}");
+        }
+    </script>
+
+    <h1>Device Contacts</h1>
+    <input type="button" value="Get Contacts" onclick="getContacts()" />
+    <br /><br />
+    <h1>Device Vibrate</h1>
+    <input type="button" value="Vibrate" onclick="Vibrate()" />
+    <br /><br />
+    <h1>Mp3 player</h1>
+    <input type="button" value="Open mp3 player" onclick="Mp3PlayerAction()" />
+    <br /><br />
+    <h1>Device Gallery Files</h1>
+    <input type="button" value="Get Gallery Files" onclick="getGalleryFiles()" />
+    <h1>Ad Mob Plugin</h1>
+    <h2>Show Ad</h2>
+    <input type="button" value="Show Ad Top Left" onclick="showAdTopLeft()" />
+    <input type="button" value="Show Ad Top Center" onclick="showAdTopCenter()" />
+    <input type="button" value="Show Ad Top Right" onclick="showAdTopRight()" />
+    <input type="button" value="Show Ad Bottom Left" onclick="showAdBottomLeft()" />
+    <input type="button" value="Show Ad Bottom Center" onclick="showAdBottomCenter()" />
+    <input type="button" value="Show Ad Bottom Right" onclick="showAdBottomRight()" />
+    <input type="button" value="Show Ad Smart Banner top" onclick="showAdSmartBannertop()" />
+    <input type="button" value="Show Ad Smart Banner Bottom" onclick="showAdSmartBannerBottom()" />
+    <input type="button" value="Show Ad Interstitial" onclick="showAdInterstitial()" />
+    <h2>Close Ad</h2>
+    <input type="button" value="Close Ad" onclick="closeAd()" />
+</body>
+</html>

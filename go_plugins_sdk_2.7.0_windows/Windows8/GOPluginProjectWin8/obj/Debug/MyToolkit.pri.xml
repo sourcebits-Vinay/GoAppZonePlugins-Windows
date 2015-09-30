@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="MyToolkit" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="MyToolkit">
+				<ResourceMapSubtree name="Controls">
+					<NamedResource name="DatePicker.xaml" uri="ms-resource://MyToolkit/Files/MyToolkit/Controls/DatePicker.xaml">
+						<Candidate type="Path">
+							<Value>MyToolkit\Controls\DatePicker.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TimePicker.xaml" uri="ms-resource://MyToolkit/Files/MyToolkit/Controls/TimePicker.xaml">
+						<Candidate type="Path">
+							<Value>MyToolkit\Controls\TimePicker.xaml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="generic.xaml" uri="ms-resource://MyToolkit/Files/MyToolkit/Themes/generic.xaml">
+						<Candidate type="Path">
+							<Value>MyToolkit\Themes\generic.xaml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="UI">
+					<ResourceMapSubtree name="Popups">
+						<NamedResource name="ListPickerBox.xaml" uri="ms-resource://MyToolkit/Files/MyToolkit/UI/Popups/ListPickerBox.xaml">
+							<Candidate type="Path">
+								<Value>MyToolkit\UI\Popups\ListPickerBox.xaml</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

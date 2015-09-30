@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<plugin>
+  <platform>wp8</platform>
+  <description>Get contacts. Actions are :1) ActionName=getContacts, ActionParameters: None, Callback: json with device contacts.</description>
+  <version>1.0.0</version>
+  <assembly>PluginExampleContactsWP8</assembly>
+  <name>Contacts plugin</name>
+  <class>PluginExample.ContactsPlugin</class>
+  <action>PluginExample.ContactsAction</action>
+  <startup>onDemand</startup>
+</plugin>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<plugin>
+  <platform>wp8</platform>
+  <description>Device Vibrate. 1) ActionName=VibrateAction, ActionParameters: None, Callback: None. </description>
+  <version>1.0.0</version>
+  <assembly>PluginExampleVibrateWP8</assembly>
+  <name>PluginVibrator</name>
+  <class>PluginExample.VibratePlugin</class>
+  <action>PluginExample.VibrateAction</action>
+  <startup>onDemand</startup>
+</plugin>

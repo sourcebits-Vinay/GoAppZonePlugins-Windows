@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/phone.css" />
+  <script type="text/javascript" src="js/go.js"></script>
+  <title>Plugin runner</title>
+</head>
+<body>
+  <script type="text/javascript">
+    function getContacts() {
+      go.executePlugin("PluginExample.ContactsPlugin", "getContacts", "", "function(response){ alert(JSON.stringify(response))}");
+    }
+
+    function PlayAction() {
+      go.executePlugin("PluginExample.MusicPlayerPlugin", "PlayAction");
+    }
+    function PauseAction() {
+      go.executePlugin("PluginExample.MusicPlayerPlugin", "PauseAction");
+    }
+    function StopAction() {
+      go.executePlugin("PluginExample.MusicPlayerPlugin", "StopAction");
+    }
+
+    function getGalleryFiles() {
+      go.executePlugin("PluginExample.GalleryFilesPlugin", "GalleryFilesAction", "", "function(response){ alert(JSON.stringify(response))}");
+    }
+  </script>
+
+  <h1>Device Contacts</h1>
+  <input type="button" value="Get Contacts" onclick="getContacts()" />
+  <br /><br />
+  <h1>Mp3 player</h1>
+  <input type="button" value="Play" onclick="PlayAction()" />
+  <input type="button" value="Pause" onclick="PauseAction()" />
+  <input type="button" value="Stop" onclick="StopAction()" />
+  <br /><br />
+  <h1>Device Gallery Files</h1>
+  <input type="button" value="Get Gallery Files" onclick="getGalleryFiles()" />
+</body>
+</html>

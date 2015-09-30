@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<plugin>
+  <platform>win</platform>
+  <description>Show AdMob. Actions are :1) ActionName=getAds, ActionParameters: None, Callback: json with device Ads.</description>
+  <version>1.0.0</version>
+  <assembly>PluginExampleAdMobWin8</assembly>
+  <name>AdMob plugin</name>
+  <class>PluginExample.AdMobPlugin</class>
+  <action>PluginExample.AdMobAction</action>
+  <startup>onDemand</startup>
+</plugin>

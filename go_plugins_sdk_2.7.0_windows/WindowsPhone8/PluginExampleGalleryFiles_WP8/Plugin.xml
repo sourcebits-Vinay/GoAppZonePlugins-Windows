@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<plugin>
+  <platform>wp8</platform>
+  <description>Get gallery files Actions are :1) ActionName=GalleryFilesAction, ActionParameters: None, Callback: json with device gallery files.</description>
+  <version>1.0.0</version>
+  <assembly>PluginExampleGalleryFilesWP8</assembly>
+  <name>PluginGalleryFiles</name>
+  <class>PluginExample.GalleryFilesPlugin</class>
+  <action>PluginExample.GalleryFilesAction</action>
+  <startup>onDemand</startup>
+</plugin>

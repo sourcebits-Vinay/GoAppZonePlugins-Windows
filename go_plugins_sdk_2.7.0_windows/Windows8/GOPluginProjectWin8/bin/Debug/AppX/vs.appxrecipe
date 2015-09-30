@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VINAYP</Machine>
+    <WindowsUser>Vinaya Gowda</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>23362129-6deb-40b2-99d4-74679b34cb8c</PackageIdentityName>
+    <IntermediateOutputPath>D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\GOPluginProjectWin8\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>E4C0319BCAA31D4200AE963C02709A002768B5793005011C56B6369104928E02</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>23362129-6deb-40b2-99d4-74679b34cb8c_1.0.0.0_neutral__ddmhemq3x5spt</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>23362129-6deb-40b2-99d4-74679b34cb8c_ddmhemq3x5spt!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>23362129-6deb-40b2-99d4-74679b34cb8c</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=jvinis</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\GOPluginProjectWin8\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-23T05:49:16.057</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\GOPluginProjectWin8\bin\Debug\GOPluginProjectWin8.exe">
+      <PackagePath>GOPluginProjectWin8.exe</PackagePath>
+      <Modified>2015-09-23T05:50:48.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\SDK\Win8\MyToolkit.dll">
+      <PackagePath>MyToolkit.dll</PackagePath>
+      <Modified>2015-05-29T08:16:36.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-09-15T11:44:01.227</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\PluginExampleContacts_Win8\bin\Debug\PluginExampleContactsWin8.dll">
+      <PackagePath>PluginExampleContactsWin8.dll</PackagePath>
+      <Modified>2015-09-23T05:50:47.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\PluginExampleGalleryFiles_Win8\bin\Debug\PluginExampleGalleryFilesWin8.dll">
+      <PackagePath>PluginExampleGalleryFilesWin8.dll</PackagePath>
+      <Modified>2015-09-23T05:50:46.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\PluginExampleMusicPlayer_Win8\bin\Debug\PluginExampleMusicPlayerWin8.dll">
+      <PackagePath>PluginExampleMusicPlayerWin8.dll</PackagePath>
+      <Modified>2015-09-23T05:48:08.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\SDK\Win8\PluginSDKWin8.dll">
+      <PackagePath>PluginSDKWin8.dll</PackagePath>
+      <Modified>2015-06-10T12:30:15.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\GOPluginProjectWin8\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\GOPluginProjectWin8\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\GOPluginProjectWin8\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\GOPluginProjectWin8\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\GOPluginProjectWin8\Html\css\phone.css">
+      <PackagePath>Html\css\phone.css</PackagePath>
+      <Modified>2015-01-29T15:35:31.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\GOPluginProjectWin8\Html\index.html">
+      <PackagePath>Html\index.html</PackagePath>
+      <Modified>2015-06-10T12:30:15.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\GOPluginProjectWin8\Html\js\go.js">
+      <PackagePath>Html\js\go.js</PackagePath>
+      <Modified>2015-01-29T15:35:31.506</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\GOPluginProjectWin8\plugins.xml">
+      <PackagePath>plugins.xml</PackagePath>
+      <Modified>2015-05-29T08:16:36.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\PluginExampleContacts_Win8\Plugin.xml">
+      <PackagePath>PluginExampleContactsWin8\Plugin.xml</PackagePath>
+      <Modified>2015-05-29T08:16:36.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\PluginExampleGalleryFiles_Win8\Plugin.xml">
+      <PackagePath>PluginExampleGalleryFilesWin8\Plugin.xml</PackagePath>
+      <Modified>2015-05-29T08:16:36.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\PluginExampleMusicPlayer_Win8\Plugin.xml">
+      <PackagePath>PluginExampleMusicPlayerWin8\Plugin.xml</PackagePath>
+      <Modified>2015-05-29T08:16:36.735</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\GOPluginProjectWin8\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2015-02-04T15:35:26.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\GOPluginProjectWin8\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2015-01-29T13:25:56.635</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\GOPluginProjectWin8\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2015-02-04T15:35:26.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\PluginExampleContacts_Win8\bin\Debug\Themes\Generic.xaml">
+      <PackagePath>PluginExampleContactsWin8\Themes\Generic.xaml</PackagePath>
+      <Modified>2015-05-29T08:16:36.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\PluginExampleGalleryFiles_Win8\bin\Debug\Themes\Generic.xaml">
+      <PackagePath>PluginExampleGalleryFilesWin8\Themes\Generic.xaml</PackagePath>
+      <Modified>2015-05-29T08:16:36.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\PluginExampleMusicPlayer_Win8\bin\Debug\Themes\Generic.xaml">
+      <PackagePath>PluginExampleMusicPlayerWin8\Themes\Generic.xaml</PackagePath>
+      <Modified>2015-05-29T08:16:36.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\SDK\Win8\MyToolkit\Controls\DatePicker.xaml">
+      <PackagePath>MyToolkit\Controls\DatePicker.xaml</PackagePath>
+      <Modified>2015-05-29T08:16:36.645</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\SDK\Win8\MyToolkit\Controls\TimePicker.xaml">
+      <PackagePath>MyToolkit\Controls\TimePicker.xaml</PackagePath>
+      <Modified>2015-05-29T08:16:36.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\SDK\Win8\MyToolkit\Themes\generic.xaml">
+      <PackagePath>MyToolkit\Themes\generic.xaml</PackagePath>
+      <Modified>2015-05-29T08:16:36.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\SDK\Win8\MyToolkit\UI\Popups\ListPickerBox.xaml">
+      <PackagePath>MyToolkit\UI\Popups\ListPickerBox.xaml</PackagePath>
+      <Modified>2015-05-29T08:16:36.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\GOPluginProjectWin8\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-09-23T05:49:14.629</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

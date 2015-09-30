@@ -1,0 +1,4 @@
+D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\GOPluginProjectWin8\GOPluginProjectWin8.csproj;neutral
+D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\PluginExampleContacts_Win8\PluginExampleContacts_Win8.csproj;neutral
+D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\PluginExampleGalleryFiles_Win8\PluginExampleGalleryFiles_Win8.csproj;neutral
+D:\Go!AppZone Plugins\GoAppZonePlugins-Windows\go_plugins_sdk_2.7.0_windows\Windows8\PluginExampleMusicPlayer_Win8\PluginExampleMusicPlayer_Win8.csproj;neutral

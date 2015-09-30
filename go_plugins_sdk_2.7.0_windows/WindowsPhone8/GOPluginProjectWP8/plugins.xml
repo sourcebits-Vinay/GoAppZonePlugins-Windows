@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<plugins>
+  <plugin>
+    <platform>wp8</platform>
+    <description>Get contacts</description>
+    <version>1.0.0</version>
+    <assembly>PluginExampleContactsWP8</assembly>
+    <name>Contacts plugin</name>
+    <class>PluginExample.ContactsPlugin</class>
+    <action>PluginExample.ContactsAction</action>
+    <startup>onDemand</startup>
+  </plugin>
+  <plugin>
+    <platform>wp8</platform>
+    <description>Get gallery files</description>
+    <version>1.0.0</version>
+    <assembly>PluginExampleGalleryFilesWP8</assembly>
+    <name>PluginGalleryFiles</name>
+    <class>PluginExample.GalleryFilesPlugin</class>
+    <action>PluginExample.GalleryFilesAction</action>
+    <startup>onDemand</startup>
+  </plugin>
+  <plugin>
+    <platform>wp8</platform>
+    <description>Play a sound</description>
+    <version>1.0.0</version>
+    <assembly>PluginExampleMusicPlayerWP8</assembly>
+    <name>MusicPlayerPlugin</name>
+    <class>PluginExample.MusicPlayerPlugin</class>
+    <action>PluginExample.MusicPlayerAction</action>
+    <startup>onDemand</startup>
+  </plugin>
+  <plugin>
+    <platform>wp8</platform>
+    <description>Vibrate</description>
+    <version>1.0.0</version>
+    <assembly>PluginExampleVibrateWP8</assembly>
+    <name>PluginVibrator</name>
+    <class>PluginExample.VibratePlugin</class>
+    <action>PluginExample.VibrateAction</action>
+    <startup>onDemand</startup>
+  </plugin>
+  <plugin>
+    <platform>wp8</platform>
+    <description>AdMob</description>
+    <version>1.0.0</version>
+    <assembly>PluginExampleAdMobWP8</assembly>
+    <name>AdMobPlugin</name>
+    <class>PluginExample.AdMobPlugin</class>
+    <action>PluginExample.AdMobAction</action>
+    <startup>onDemand</startup>
+  </plugin>
+</plugins>

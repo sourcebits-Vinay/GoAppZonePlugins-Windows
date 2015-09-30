@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<plugin>
+  <platform>win</platform>
+  <description>Play a specific sound: 1) ActionName=PlayAction, ActionParameters: None, Callback: None. 2) ActionName=PauseAction, ActionParameters: None, Callback: None. 3) ActionName=StopAction, ActionParameters: None, Callback: None. </description>
+  <version>1.0.0</version>
+  <assembly>PluginExampleMusicPlayerWin8</assembly>
+  <name>MusicPlayerPlugin</name>
+  <class>PluginExample.MusicPlayerPlugin</class>
+  <action>PluginExample.MusicPlayerAction</action>
+  <startup>onDemand</startup>
+</plugin>

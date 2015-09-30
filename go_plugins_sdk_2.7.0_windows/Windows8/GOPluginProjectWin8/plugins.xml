@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<plugins>
+  <plugin>
+    <platform>win</platform>
+    <description>Get contacts</description>
+    <version>1.0.0</version>
+    <assembly>PluginExampleContactsWin8</assembly>
+    <name>Contacts plugin</name>
+    <class>PluginExample.ContactsPlugin</class>
+    <action>PluginExample.ContactsAction</action>
+    <startup>onDemand</startup>
+  </plugin>
+  <plugin>
+    <platform>win</platform>
+    <description>Get gallery files</description>
+    <version>1.0.0</version>
+    <assembly>PluginExampleGalleryFilesWin8</assembly>
+    <name>PluginGalleryFiles</name>
+    <class>PluginExample.GalleryFilesPlugin</class>
+    <action>PluginExample.GalleryFilesAction</action>
+    <startup>onDemand</startup>
+  </plugin>
+  <plugin>
+    <platform>win</platform>
+    <description>Play a sound</description>
+    <version>1.0.0</version>
+    <assembly>PluginExampleMusicPlayerWin8</assembly>
+    <name>MusicPlayerPlugin</name>
+    <class>PluginExample.MusicPlayerPlugin</class>
+    <action>PluginExample.MusicPlayerAction</action>
+    <startup>onDemand</startup>
+  </plugin>
+</plugins>
